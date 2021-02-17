@@ -1,0 +1,16 @@
+Git Tutorial
+
+1-what is git? -Git is a software for tracking changes in any set of files,
+ usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Wikipedia
+
+2-how to have `git` command in the windows? git-scm.com
+
+3-how to create a new repository in github?
+
+4-how to use git commands in terminal or powershell?
+
+5-how to add files of a previous project to a new repository?
+
+6-how to use a git extensions in an editor like VSCode
+
+7-summary of the whole tutorial

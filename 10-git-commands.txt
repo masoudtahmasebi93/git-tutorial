@@ -1,0 +1,46 @@
+1. Git clone
+git clone <https://name-of-the-repository-link>
+
+2. Git branch
+git branch <branch-name>
+git branch or git branch --list
+git branch -d <branch-name> //delete a branch
+
+3. Git checkout //switch to a branch
+git checkout <name-of-your-branch>
+
+4. Git status
+git status
+
+5. Git add
+git add <file> // to add a single file
+git add -A
+
+6. Git commit
+git commit -m "commit message"
+
+Important: Git commit saves your changes only locally.
+
+7. Git push
+git push <remote> <branch-name>
+
+Important: Git push only uploads changes that are committed.
+
+8. Git pull
+git pull <remote>
+
+9.  Git log --oneline
+git log --oneline
+
+10. Git revert
+git revert <hash-code-of-commit>
+
+11. Git merge
+//First you should switch to the dev branch:
+git checkout dev
+
+//Before merging, you should update your local dev branch:
+git fetch
+
+//Finally, you can merge your feature branch into dev:
+git merge <branch-name>
